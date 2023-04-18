@@ -8,7 +8,14 @@ export const globalStyles = globalCss({
   },
 
   ':root': {
+    /** FontSizes */
+    '--lg': '$fontSizes$lg',
+    '--xl': '$fontSizes$xl',
+    '--4xl': '$fontSizes$4xl',
+
+    /** Colors */
     '--gray100': '$colors$gray_100',
+    '--gray200': '$colors$gray_200',
     '--gray900': '$colors$gray_900',
   },
 
