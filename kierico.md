@@ -55,3 +55,7 @@ module.exports = nextConfig
 
 * `npm i phosphor-react`
 
+### #2.3 - Utilizando React Hook Form
+
+* `npm i react-hook-form @hookform/resolvers zod`
+
