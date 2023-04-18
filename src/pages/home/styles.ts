@@ -1,4 +1,5 @@
 import { styled, Heading, Text } from '@kierico-ui/react'
+import maskImage from '../../assets/mask.png'
 
 export const Container = styled('div', {
   maxWidth: 'calc(100vw - (100vw - 1160px) / 2)',
@@ -13,9 +14,11 @@ export const Hero = styled('div', {
   maxWidth: 480,
   padding: '0 $10',
 
-  [`${Heading}`]: {},
+  backgroundImage: `src('${maskImage}')`,
 
-  [`${Text}`]: {
+  [`> ${Heading}`]: {},
+
+  [`> ${Text}`]: {
     marginTop: '$2',
     color: 'var(--gray200)',
   },

@@ -47,3 +47,11 @@ module.exports = nextConfig
 
 > Todas as rotas agora precisam terminar com `page.tsx` para poder funcionar. Ex: index.page.tsx
 
+<br /><hr /><br />
+
+## #2 - Cadastro de usuário
+
+### #2.2 - Componente ClaimUsernameForm
+
+* `npm i phosphor-react`
+
