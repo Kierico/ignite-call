@@ -30,3 +30,20 @@
 
 * `npm run lint -- --fix`
 
+### #1.5 - Configuração do pageExtensions
+
+```js
+/** next.config.js */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  // swcMinify: true,
+  pageExtensions: ['page.tsx', 'api.ts', 'api.tsx'],
+}
+
+module.exports = nextConfig
+
+```
+
+> Todas as rotas agora precisam terminar com `page.tsx` para poder funcionar. Ex: index.page.tsx
+
