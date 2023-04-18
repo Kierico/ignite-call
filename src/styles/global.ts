@@ -16,6 +16,7 @@ export const globalStyles = globalCss({
     /** Colors */
     '--gray100': '$colors$gray_100',
     '--gray200': '$colors$gray_200',
+    '--gray400': '$colors$gray_400',
     '--gray900': '$colors$gray_900',
   },
 
