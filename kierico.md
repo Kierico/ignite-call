@@ -12,3 +12,21 @@
 
 * `npm run dev`
 
+### #1.4 - Configuração do ESLint
+
+* `npm i @rocketseat/eslint-config -D`
+
+```json
+/** .eslintrc.json */
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/react"    // <--
+  ]
+}
+```
+
+* `npm run lint`
+
+* `npm run lint -- --fix`
+
