@@ -1,5 +1,7 @@
+import { Heading } from '@kierico-ui/react'
+
 export default function Home() {
   return (
-    <h1>Kiérico Souza</h1>
+    <Heading as='h1'>Kiérico Souza</Heading>
   )
 }
