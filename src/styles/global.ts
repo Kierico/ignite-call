@@ -18,6 +18,8 @@ export const globalStyles = globalCss({
     '--gray200': '$colors$gray_200',
     '--gray400': '$colors$gray_400',
     '--gray900': '$colors$gray_900',
+
+    '--error': '$colors$danger_light',
   },
 
   body: {
