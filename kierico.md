@@ -94,3 +94,13 @@ Fazer requisições entre backend e frontend.
 
 * `npm i axios`
 
+<br /><hr /><br />
+
+### #2.11 - Manipulando cookies no Next
+
+Next Cookies
+
+* `npm i nookies` <!-- Pacote feito para trabalhar com Cookies no Next -->
+
+* `npm i @types/cookie -D`
+
