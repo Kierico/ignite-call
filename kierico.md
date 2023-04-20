@@ -86,3 +86,11 @@ Inicializa o Prisma:
 
 * `npx prisma studio` <!-- interface para olhar o banco de dados -->
 
+<br /><hr /><br />
+
+### #2.10 - Persistindo usuário no Prisma
+
+Fazer requisições entre backend e frontend.
+
+* `npm i axios`
+

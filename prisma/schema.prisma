@@ -16,6 +16,7 @@ datasource db {
 // @default(uuid()) = id único universal gerado
 // @unique = nome único, para não salvar nomes duplicados
 // now() = é uma função do Prisma que vai preencher o campo 'DateTime' com o valor atual do registro na hora em que ele for inserido no banco de dados.
+
 model User {
   id       String @id @default(uuid())
   username String @unique
