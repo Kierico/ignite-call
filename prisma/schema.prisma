@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Definir tabelas, relacionamentos e campos do banco de dados.
+// model = tabela
+// @id =  Primary Key
+// @default(uuid()) = id único universal gerado
+// @unique = nome único, para não salvar nomes duplicados
+// now() = é uma função do Prisma que vai preencher o campo 'DateTime' com o valor atual do registro na hora em que ele for inserido no banco de dados.
+model User {
+  id       String @id @default(uuid())
+  username String @unique
+  name     String
+
+  created_at DateTime @default(now())
+
+  @@map("users") // cria o nome da tabela em lowerCase e em plural.
+}

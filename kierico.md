@@ -59,3 +59,30 @@ module.exports = nextConfig
 
 * `npm i react-hook-form @hookform/resolvers zod`
 
+<br /><hr /><br />
+
+### #2.9 - Configurando Prisma no Next
+
+Ferramenta para comunicação com o banco de dados:
+
+* `npm i prisma -D` CLI, apenas a linha de comando para execultar os comandos.
+
+* `npm i @prisma/client` dependência para acessar o banco de dados (leitura, escrita, atualização, remoção ... ).
+
+Inicializa o Prisma:
+
+* `npx prisma init --datasource-provider SQLite` (datasource - para o tipo de banco de dados (neste caso 'SQLite')).
+
+```json
+/** settings.json do VSCode */
+"[prisma]": {
+    "editor.formatOnSave": true
+  }
+```
+
+* `npx prisma migrate dev`
+
+      Enter a name for the new migration: create users
+
+* `npx prisma studio` <!-- interface para olhar o banco de dados -->
+
